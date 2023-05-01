@@ -1,0 +1,10 @@
+instances:
+  - name: instance-o1
+    gce_machine_type: e2-custom-8-16384
+    gce_source_image: projects/ubuntu-os-cloud/global/images/family/ubuntu-2204-lts
+    gce_zone: us-central1-c
+    gce_project: infra-smile-382013
+
+service_account_file: /Users/brunofilipemirandapereira/Documents/Universidade/Mestrado/1ANO/2-semestre/ABD/create-instance/infra-smile-382013-fe2d168d98e0.json
+admin_username: admin
+admin_ssh_key: ssh-rsa +Bz9BUWyVgDF

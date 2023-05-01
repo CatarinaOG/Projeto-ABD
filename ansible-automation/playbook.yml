@@ -1,0 +1,6 @@
+- name: Create cloud instances
+  hosts: localhost
+  roles:
+    - create_instance
+
+   
